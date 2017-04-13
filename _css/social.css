@@ -1,0 +1,105 @@
+.social-container {
+  width: 400px;
+  margin: 40vh auto;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  transition: all 265ms ease-out;
+}
+
+.social-icons i.fa-facebook {
+  top: 7px;
+  left: 10px;
+}
+
+.social-icons i.fa-twitter {
+  top: 7px;
+  left: 7px;
+}
+
+.social-icons i.fa-tumblr {
+  top: 7px;
+  left: 9px;
+}
+
+.social-icons i.fa-linkedin {
+  top: 6px;
+  left: 7px;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: block;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a#facebook:before {
+  background: #365899;
+}
+
+.social-icons a#twitter:before {
+  background: #1da1f2;
+}
+.social-icons a#tumblr:before {
+  background: #36465d;
+}
+
+.social-icons a#linkedin:before {
+  background: #0084bf;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a#facebook:hover i {
+  color: #365899;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 265ms ease-in;
+}
+
+.social-icons a#twitter:hover i {
+  color: #1da1f2;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 265ms ease-in;
+}
+
+.social-icons a#tumblr:hover i {
+  color: #36465d;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 265ms ease-in;
+}
+
+.social-icons a#linkedin:hover i {
+  color: #0084bf;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: all 265ms ease-in;
+}
